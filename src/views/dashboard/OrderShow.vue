@@ -154,7 +154,7 @@ onMounted(async () => {
                     </table>
                   </td>
                   <td class="p-4 text-right">
-                    <p class="m-0 font-bold">{{product.price}}</p>
+                    <p class="m-0 font-bold">{{moneyFormat(product.price)}}</p>
                   </td>
                 </tr>
               </tbody>

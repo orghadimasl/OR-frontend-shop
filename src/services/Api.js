@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const Api = axios.create({
-  baseURL: 'https://orghadimasl.learndev.my.id/',
+  baseURL: 'https://orghadimasl.learndev.my.id/api',
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json',
